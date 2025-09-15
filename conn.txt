@@ -1,0 +1,1 @@
+mongodb+srv://mentalhealthsih_db_user:nP0mNXQ1PlEK4SXV@hieee.m7ozkca.mongodb.net/mobile_app?retryWrites=true&w=majority
