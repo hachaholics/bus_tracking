@@ -10,7 +10,9 @@ app.use(express.json());
 // Routes
 const authRoute = require('./routes/authRoute');
 const statusRoute = require('./routes/statusRoute');
+const routeRoutes = require("./routes/routeRoutes");
 
+app.use("/api/route", routeRoutes);
 app.use('/api/auth', authRoute);
 app.use('/api/status', statusRoute);
 
